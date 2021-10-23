@@ -44,7 +44,7 @@ const config = {
       navbar: {
         title: 'Honlyc\'s Wiki',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Honlyc Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -98,7 +98,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Wiki Honlyc, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Wiki Honlyc, Inc. Built with Docusaurus. <a target="_brank" href="https://beian.miit.gov.cn/#/Integrated/index">湘ICP备16020053号-1</a>`,
       },
       prism: {
         theme: lightCodeTheme,
