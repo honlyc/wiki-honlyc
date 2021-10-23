@@ -51,10 +51,10 @@ const config = {
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
+            position: 'right',
             label: '知识库',
           },
-          {to: '/blog', label: '博客', position: 'left'},
+          {to: '/blog', label: '博客', position: 'right'},
           {
             href: 'https://github.com/honlyc',
             label: 'GitHub',
