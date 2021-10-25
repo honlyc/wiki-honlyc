@@ -54,7 +54,13 @@ const config = {
             position: 'right',
             label: '知识库',
           },
-          {to: '/blog', label: '博客', position: 'right'},
+          {
+            to: 'docs/interview/intro',
+            docId: 'interview',
+            position: 'right',
+            label: '面试题库',
+          },
+          // {to: '/blog', label: '博客', position: 'right'},
           {
             href: 'https://github.com/honlyc',
             label: 'GitHub',
@@ -72,18 +78,22 @@ const config = {
                 label: '知识库',
                 to: '/docs/intro',
               },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '面试题库',
+                to: '/docs/interview/intro',
               },
-              
             ],
           },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Stack Overflow',
+          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          //     },
+              
+          //   ],
+          // },
           {
             title: 'More',
             items: [
