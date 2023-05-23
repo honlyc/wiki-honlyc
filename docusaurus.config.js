@@ -27,10 +27,11 @@ const config = {
           // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
         blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // editUrl:'https://github.com/facebook/docusaurus/edit/main/website/blog/',
-        },
+          blogTitle: '博客',
+        blogSidebarTitle: '全部博文',
+        blogSidebarCount: 'ALL',
+        showReadingTime: true,
+        postsPerPage: 5},
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -46,6 +47,7 @@ const config = {
         logo: {
           alt: 'Honlyc Logo',
           src: 'img/logo.svg',
+          style: { borderRadius: '50%' }
         },
         items: [
           {
