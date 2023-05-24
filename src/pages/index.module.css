@@ -3,6 +3,30 @@
  * and scoped locally.
  */
 
+ .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome_intro {
+  width: 40vw;
+  padding: 3rem 5rem 0 0;
+}
+.welcome_intro p {
+  font-size: 1.5rem;
+}
+
+.welcome_svg img {
+  height: 40vw;
+  width: 50vw;
+  padding-top: 1rem;
+}
+
+.hero_title {
+  font-size: calc((100vw/150) + 36px);
+  text-align: left;
+}
 
 @media screen and (max-width: 996px) {
   .hero_title {
@@ -20,28 +44,4 @@
   .welcome_intro p {
     font-size: 1.2rem;
   }
-}
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.welcome_intro {
-  width: 40vw;
-  padding: 3rem 5rem 0 0;
-}
-.welcome_intro p {
-  font-size: 1.5rem;
-}
-
-.welcome_svg img {
-  height: 40vw;
-  padding-top: 1rem;
-}
-
-.hero_title {
-  font-size: calc((100vw/150) + 36px);
-  text-align: left;
 }

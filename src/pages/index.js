@@ -19,7 +19,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">记录学习、留住生活，尝试坚持写一点东西，让每天过的慢一点。</p>
       </div>
       <div className={styles.welcome_svg}>
-        <img src={useBaseUrl("/img/program.svg")} />
+        <img src={useBaseUrl("/img/codeing.svg")} />
       </div>
     </div>
   );
